@@ -1,0 +1,88 @@
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #03045E;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 30px;
+  color: #03045E;
+}
+
+body {
+  background-color: #040e38;
+  font-family: 'Open Sans', sans-serif;
+  color: #0077B6;
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+  line-height: normal;
+}
+
+img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
+a {
+  color: #2428f4;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+a:hover {
+  color: #03045E;
+  transform: scale(1.2);
+}
+
+div {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 25px;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+.card {
+  padding: 40px;
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+li {
+  display: inline;
+}
